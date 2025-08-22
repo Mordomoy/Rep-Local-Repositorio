@@ -7,7 +7,8 @@ elif num_pessoas >= 1 and num_pessoas <= 5:
     print("Sala pequena.")
 elif num_pessoas > 5 and num_pessoas <= 15:
     print("Sala média.")
-
+else:
+    print("Reunião cancelada.")
 
 
 
