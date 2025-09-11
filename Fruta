@@ -1,0 +1,10 @@
+lista = []
+while True:
+    fruta = input("Digite o nome da fruta: ")
+    lista.append(fruta)
+    print(f"Lista = {lista}")
+    continua = input("Deseja continuar?[sim, nao]: ")
+    if continua == 'nao':
+        break
+
+
