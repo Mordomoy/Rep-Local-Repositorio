@@ -1,7 +1,8 @@
-Lista = [1,2,3,4,5]
-print(Lista)
-print(Lista[4])
-print(Lista[-1]) 
-Lista = 
-
-
+lista = []
+while True:
+    nome = input("Digite um nome: ")
+    lista.append(nome)
+    print(f"Lista = {lista}")
+    continua = input("Deseja continuar?[sim, nao]: ")
+    if continua == 'nao':
+        break
