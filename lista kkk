@@ -1,0 +1,17 @@
+import random
+
+lista = []
+while True:
+    numero_aleatorio = random.randint(1, 100)
+    lista.append(numero_aleatorio)
+    print(f"Lista = {lista}")
+    
+    if len(lista) == 10:
+        print("A lista atingiu 10 elementos.")
+        break
+    
+    continua = input("Deseja inserir mais um número aleatório? [sim/nao]: ")
+    if continua.lower() == 'nao':
+        break
+
+print("Lista final:", lista)
