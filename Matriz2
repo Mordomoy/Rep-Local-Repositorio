@@ -17,5 +17,5 @@ def exibir (matriz):
 exibir (matriz)   
 matriz2 =[ [ 'x' for_in range(3)] for_inrange(3)]
 exibir (matriz2)
-/ 
+
 

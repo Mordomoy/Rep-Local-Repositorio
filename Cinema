@@ -1,0 +1,8 @@
+Cinema =[[ 0 for_in range(8)] for_in range(s)]
+def reserva_assento(cinema,linha, coluna):
+    posicao_L=linha-1
+    posicao_c=coluna-1
+    if0<=posicao_L<5 and 0<= posicao_c <8= 
+    
+
+
