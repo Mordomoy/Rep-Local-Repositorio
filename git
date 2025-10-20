@@ -4,3 +4,5 @@ git config --global user.email "00001158920726sp@al.educacao.sp.gov.br"
 git branch -M main
 git remote add origin https://github.com/Mordomoy/Rep-Local-Repositorio.git
 git pull origin main
+
+10
